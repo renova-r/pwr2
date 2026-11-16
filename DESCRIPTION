@@ -1,12 +1,15 @@
 Package: pwr2
 Type: Package
-Title: Power and Sample Size Analysis for One-way and Two-way ANOVA
+Title: Power and Sample Size Analysis for One-Way and Two-Way ANOVA
         Models
-Version: 1.0
-Date: 2017-05-01
-Author: Pengcheng Lu, Junhao Liu, Devin Koestler 
+Version: 1.0.9001
+Author: Pengcheng Lu [aut, cre], Junhao Liu [aut], Devin Koestler [aut]
 Maintainer: Pengcheng Lu <plu2@kumc.edu>
+Authors@R: c(person(given = "Pengcheng", family = "Lu", role = c("aut", "cre"), email = "plu2@kumc.edu"),
+             person(given = "Junhao", family = "Liu", role = "aut"),
+             person(given = "Devin", family = "Koestler", role = "aut"))
 Description: User friendly functions for power and sample size analysis at one-way and two-way ANOVA settings take either effect size or delta and sigma as arguments. They are designed for both one-way and two-way ANOVA settings. In addition, a function for plotting power curves is available for power comparison, which can be easily visualized by statisticians and clinical researchers.
+    Compatibility updates by Renova.
 License: GPL-2
 NeedsCompilation: no
 Packaged: 2017-05-02 02:51:50 UTC; Junhao
